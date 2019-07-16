@@ -1,0 +1,124 @@
+en:
+  common:
+    are_you_sure_you_want_to_delete: "Are you sure you want to delete this %{resource_name}?"
+
+  flash:
+    admin:
+      create:
+        success: "%{resource_name} successfully created."
+      update:
+        success: "%{resource_name} successfully updated."
+    blogs:
+      destroy:
+        success: "Blog successfully deleted."
+    comments:
+      create:
+        success: "Comment successfully created."
+      update:
+        success: "Comment successfully updated."
+    posts:
+      create:
+        success: "Post successfully created."
+      update:
+        success: "Post successfully updated."
+      destroy:
+        success: "Post successfully deleted."
+    sites:
+      create:
+        success: "Site successfully created."
+      update:
+        success: "Site successfully updated."
+      destroy:
+        success: "Site successfully deleted."
+    snippets:
+      create:
+        success: "Text snippet successfully created."
+      update:
+        success: "Text snippet successfully updated."
+      destroy:
+        success: "Text snippet successfully deleted."
+    subscriptions:
+      create:
+        success: "Subscription successfully created."
+        fail: "Could not create a subscription."
+      update:
+        success: "Subscription successfully updated."
+      destroy:
+        success: >
+          You have been successfully removed form this subscriber list.
+          You will no longer hear from us.
+        fail: "Could not unsubscribe email."
+    users:
+      create:
+        success: "User successfully created."
+      update:
+        success: "User successfully updated."
+    roles:
+      update:
+        success: "Permissions successfully updated."
+
+  simple_form:
+    labels:
+      site:
+        post_slug_style: "Post URL Style"
+        ga_tracking_id: "Google Analytics Tracking ID"
+      comment:
+        content: "Comment Content"
+      user:
+        storytime_name: "Name"
+
+  footer:
+    attribute: 'Powered by <a href="http://www.github.com/FlyoverWorks/storytime" target="_blank">Storytime</a>.'
+
+  dashboard:
+    admin:
+      unconfigured_model: "You are attempting to access an admin page for a model that has not been configured in Storytime."
+    sites:
+      new: "Set Up Your Site"
+      root_post_id_label: "Homepage"
+      root_post_id_hint: "Select a page or blog to display at the path where Storytime is mounted. Leave blank to use a view from the host app."
+      subscription_email_from_label: "Email address to send subscription emails from"
+      edit: "Site Settings"
+      basic_info: "Basic Info"
+      permissions: "Permissions"
+      save_permissions: "Save"
+      save_button: "Save"
+      layout_hint: "Leave blank to use the default Storytime site layout"
+      domain_hint: "Enter the full domain of your site (e.g. www.example.com)"
+    users:
+      users_header: "Users"
+      create_new_user: "New"
+      edit_user_button: "Edit"
+      edit_user_header: "Edit User"
+      email: "Email"
+      name: "Name"
+      role: "Role"
+      actions: "Actions"
+    media:
+      media_header: "Media"
+      select_media: "Select Media"
+      select_media_by_url: "By URL:"
+      select_media_from_file: "Select"
+    posts:
+      autosaves:
+        available: "There is an autosave of this %{resource} that is newer than the version below."
+        view_autosave: "View the autosave"
+      select_or_create: "Select a %{resource} to Edit"
+      create_post: "Create One"
+      additional_fields: "Additional Fields"
+      advanced_settings: "Advanced Settings"
+      featured_images: "Featured Images"
+      remove_image: "Remove Image"
+      new:
+        header: "New %{resource}"
+
+  layout:
+    title: "Storytime"
+    subscribe_to: "Subscribe to %{site_name}"
+    subscribe_modal_msg: "Stay up-to-date with %{site_name} by signing up for our mailing list!"
+
+  pagination:
+    first: "<i class='fa fa-caret-left'></i><i class='fa fa-caret-left'></i>"
+    previous: "<i class='fa fa-caret-left'></i>"
+    next: "<i class='fa fa-caret-right'></i>"
+    last: "<i class='fa fa-caret-right'></i><i class='fa fa-caret-right'></i>"
